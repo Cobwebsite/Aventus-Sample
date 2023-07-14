@@ -1,0 +1,2 @@
+<h1>My chart</h1>
+<canvas class="chart" @element="chartEl"></canvas>

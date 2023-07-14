@@ -1,0 +1,20 @@
+{
+	"module": "chartjs",
+	"componentPrefix": "av",
+	"build": [
+		{
+			"name": "Main",
+			"inputPath": [
+				"./src/*"
+			],
+			"outputFile": "./dist/chartjs.js"
+		}
+	],
+	"static": [
+		{
+			"name": "Main",
+			"inputPath": "./static/",
+			"outputPath": "./dist/"
+		}
+	]
+}
